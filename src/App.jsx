@@ -1,8 +1,10 @@
 import React from "react";
+import Home from "./Container/home";
+
 
 const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline text-pink-600">Hello world!</h1>
+    <Home/>
   );
 };
 
