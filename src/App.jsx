@@ -1,10 +1,15 @@
 import React from "react";
-import Home from "./Container/home";
+import Hero from "./componets/Hero";
+import Body from "./componets/Body";
+
 
 
 const App = () => {
   return (
-    <Home/>
+   <>
+      <Hero/>
+      <Body/>
+   </>
   );
 };
 
